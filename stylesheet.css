@@ -1,0 +1,268 @@
+body {
+	/*background-color: #FFDAB9;	*/
+	background-color: #000;
+}
+.container {
+	display: none;
+}
+.peach {
+	margin: 0;
+    padding: 0;
+    background-image: url(back.jpg);
+    background-size: 100% 120%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 200%;	
+}
+audio {
+	display: none;
+}
+
+.hey{
+    margin: 50px;
+    margin-top: 500px;
+    text-align: left;
+    color: rgb(187, 169, 169);
+    font-family:hey;
+    font-size: 200px;
+}
+
+.hey1{
+    margin: 50px;
+    margin-top: 500px;
+    text-align: right;
+    color: rgb(187, 169, 169);
+    font-family: hey;
+    font-size: 200px;
+}
+
+.hey2{
+    margin: 50px;
+    margin-top: 500px;
+    text-align: center;
+    color: rgb(187, 169, 169);
+    font-family: hey;
+    font-size: 200px;
+}
+
+.hey3{
+    margin: 50px;
+    margin-top: 500px;
+    text-align: center;
+    color: rgb(187, 169, 169);
+    font-family: hey;
+    font-size: 200px;
+}
+.bday{
+    margin: 30px;
+    margin-bottom: 100px;
+    margin-top: 400px;
+    text-align: center;
+    background: linear-gradient(180deg, #eeeded 5%, #d8bf30 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    font-size: 180px;
+    font-family: tes;
+}
+.name{
+    margin-top: -80px;
+    margin-bottom: -100px;
+    text-align: center;
+    background: linear-gradient(180deg, #eeeded 5%, #d8bf30 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    font-size: 200px;
+    font-family: cname;
+}
+
+.name:hover{
+    -webkit-box-reflect: below -webkit-gradient(linear, right, top, right bottom, from(transparent), 
+    color-stop(85%, transparent), to(rgba(42, 99, 99, 1)));
+}
+.wrapper{
+    position: relative;
+    top: -400px;
+    left: -100px;
+    width: 200px;
+    margin-top: 50px;
+    margin: 100px auto;
+    perspective: 1500px;
+    margin: 500px;
+}
+.img-area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-360deg) translateZ(-360px);
+    animation: animate 20s steps(1000, end) infinite;
+}
+.single-img{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 10px;
+    left: 10px;
+}
+.single-img img{
+    width: 200px;
+    height: 270px;
+    border: 9px solid rgb(238, 237, 231);
+    border-bottom: 50px solid rgb(238, 237, 231);
+}
+.single-img.img-one{
+    transform: rotateY(0deg) translateZ(210px);
+}
+.single-img.img-two{
+    transform: rotateY(60deg) translateZ(210px);
+}
+.single-img.img-three{
+    transform: rotateY(120deg) translateZ(210px);
+}
+.single-img.img-four{
+    transform: rotateY(180deg) translateZ(210px);
+}
+.single-img.img-five{
+    transform: rotateY(240deg) translateZ(210px);
+}
+.single-img.img-six{
+    transform: rotateY(300deg) translateZ(210px);
+}
+img{
+    filter: grayscale(120%);
+    transition: 1s;
+    cursor: pointer;
+}
+img:hover{
+    transition: 1s;
+    filter: grayscale(0);
+}
+@keyframes animate{
+from{
+    transform: rotateY(-360deg);
+}
+to{
+    transform: rotateY(0deg);
+}
+}
+
+@font-face{
+font-family: tes;
+src: url(tes.ttf);
+}
+
+.sticker{
+    position: relative;
+    margin-top: 500px;
+    margin-left: 50px;
+    margin-bottom: -230px;
+    perspective: 100px;
+
+}
+.message{
+    padding: 90px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background: rgb(200, 206, 125);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    font-size: 110px;
+    font-family: cname;
+}
+.date{
+    margin: 50px;
+    margin-top: 0px;
+    margin-left: -20px; 
+    margin-right: -20px;
+    margin-bottom: 350px;
+    text-align: center;
+    background: linear-gradient(180deg, #eeeded 5%, #d8bf30 120%);
+    opacity: 0.8;
+    font-family: cname;
+    font-size: 80px;
+}
+@font-face{
+    font-family: message;
+    src: url(message.ttf);
+}
+
+@font-face{
+    font-family: hey;
+    src: url(hey.ttf);
+}
+
+@font-face{
+    font-family: click;
+    src: url(click.ttf);
+}
+@font-face{
+    font-family: cname;
+    src: url(cname.otf);
+}
+@font-face{
+    font-family: mywordss;
+    src: url(mywordss.ttf);
+}
+@font-face{
+    font-family: date;
+    src: url(date.otf);
+}
+.message1{
+    padding: 10px 20px;
+    margin-top: 100px;
+    margin-left: 380px;
+    margin-bottom: 400px;
+    background-color: #dfeaeb;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 75px;
+    text-align: center;
+    font-family: click;
+}
+.border{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: -100px;
+    perspective: -50px;
+}
+.message p {
+    display: none;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border-radius: 40px;
+    text-shadow: 10px 10px 0 rgba(0, 0, 0, 0.87);
+    background-color: rgb(216, 211, 148);
+    opacity: 0.8;
+    align-items: center;
+    font-family: mywordss;
+    font-size: 50px;
+}
+.story{
+    padding: 10px 10px;
+    margin-top: 90px;
+    margin-bottom: -10px;
+    margin-left: 340px;
+    background-color: #dfeaeb;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: click;
+}
+button{
+    padding: 20px 20px;
+    margin-top: 350px;
+    margin-bottom: -10px;
+    margin-left: 250px;
+    background-color: #dfeaeb;
+    color:rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: center;
+    font-family: mywordss; 
+}
