@@ -156,7 +156,7 @@ src: url(tes.ttf);
 .sticker{
     position: relative;
     margin-top: 500px;
-    margin-left: -5%;
+    margin-left: -7%;
     margin-bottom: -230px;
     perspective: 100px;
 
@@ -164,7 +164,7 @@ src: url(tes.ttf);
 .message{
     padding: 90px;
     margin-bottom: 10px;
-    margin-left: 5%;
+    margin-left: 20%;
     margin-top: 10px;
     text-align: center;
     background: rgb(200, 206, 125);
