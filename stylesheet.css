@@ -156,7 +156,7 @@ src: url(tes.ttf);
 .sticker{
     position: relative;
     margin-top: 500px;
-    margin-left: -7%;
+    margin-left: 2%;
     margin-bottom: -230px;
     perspective: 100px;
 
