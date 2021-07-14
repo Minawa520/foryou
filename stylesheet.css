@@ -170,7 +170,7 @@ src: url(tes.ttf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;
-    font-size: 110px;
+    font-size: 130px;
     font-family: cname;
 }
 .date{
