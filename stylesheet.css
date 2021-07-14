@@ -223,12 +223,6 @@ src: url(tes.ttf);
     text-align: center;
     font-family: click;
 }
-.border{
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: -100px;
-    perspective: -50px;
-}
 .message p {
     display: none;
     margin: 0 auto;
