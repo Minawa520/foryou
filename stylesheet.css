@@ -238,7 +238,7 @@ src: url(tes.ttf);
 .story{
     padding: 10px 10px;
     margin-top: 90px;
-    margin-bottom: -10px;
+    margin-bottom: 100px;
     margin-left: 340px;
     background-color: #dfeaeb;
     cursor: pointer;
@@ -249,9 +249,9 @@ src: url(tes.ttf);
 }
 button{
     padding: 20px 20px;
-    margin-top: 350px;
-    margin-bottom: -10px;
-    margin-left: 250px;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    margin-left: 160px;
     background-color: #dfeaeb;
     color:rgba(0, 0, 0, 0.87);
     cursor: pointer;
