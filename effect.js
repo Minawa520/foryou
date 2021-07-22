@@ -21,9 +21,9 @@ $('document').ready(function(){
         var i;
 
         function msgLoop (i) {
-            $("p:nth-child("+i+")").fadeOut('slow').delay(1700).promise().done(function(){
+            $("p:nth-child("+i+")").fadeOut('slow').delay(1500).promise().done(function(){
             i=i+1;
-            $("p:nth-child("+i+")").fadeIn('slow').delay(1900);
+            $("p:nth-child("+i+")").fadeIn('slow').delay(1700);
             if(i==21){
                 $("p:nth-child(20)").fadeOut('slow').promise().done(function () {
                     $('.cake').fadeIn('fast');
